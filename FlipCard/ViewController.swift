@@ -10,15 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+   
+    @IBOutlet weak var cardImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func flipTapRecognition(_ sender: UITapGestureRecognizer) {
+        if  cardImageView.image == #imageLiteral(resourceName: "front") {
+            cardImageView.image=#imageLiteral(resourceName: "back")
+        }
+        else{
+            cardImageView.image = #imageLiteral(resourceName: "front")
+        }
+        
     }
+    
 
 
 }
