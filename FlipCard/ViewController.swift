@@ -19,11 +19,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func flipTapRecognition(_ sender: UITapGestureRecognizer) {
-        if  cardImageView.image == #imageLiteral(resourceName: "front") {
-            cardImageView.image=#imageLiteral(resourceName: "back")
-        }
+        if  cardImageView.image == UIImage(named:"back"){
+            cardImageView.image=UIImage(named:"front")        }
         else{
-            cardImageView.image = #imageLiteral(resourceName: "front")
+            cardImageView.image = UIImage(named:"back")
         }
         
     }
