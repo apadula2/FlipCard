@@ -18,9 +18,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="CSD-Eo-63p">
-                                <frame key="frameInset" minX="49.67%" minY="54.07%" width="222" height="323"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="CSD-Eo-63p">
+                                <frame key="frameInset" minX="49.02%" minY="54.07%" width="222" height="323"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="1fH-Al-sAy" appends="YES" id="U8I-wD-9VI"/>
+                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -30,9 +34,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="qxf-QO-bxn">
+                <tapGestureRecognizer id="1fH-Al-sAy">
                     <connections>
-                        <action selector="flipTapRecognizer:" destination="BYZ-38-t0r" id="0bt-ao-0kr"/>
+                        <action selector="flipTapRecognizer:" destination="BYZ-38-t0r" id="Zao-QZ-uVZ"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>

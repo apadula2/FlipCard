@@ -18,14 +18,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func flipTapRecognition(_ sender: UITapGestureRecognizer) {
+    @IBAction func flipTapRecognizer(_ sender: UITapGestureRecognizer) {
         if  cardImageView.image == UIImage(named:"back"){
             cardImageView.image=UIImage(named:"front")        }
         else{
             cardImageView.image = UIImage(named:"back")
-        }
-        
+
     }
+    }
+    
     
 
 
