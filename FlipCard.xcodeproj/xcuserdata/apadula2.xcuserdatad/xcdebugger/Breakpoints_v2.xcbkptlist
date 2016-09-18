@@ -10,13 +10,90 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FlipCard/ViewController.swift"
-            timestampString = "495738996.697883"
+            timestampString = "495911770.167295"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "flipTapRecognizer(_:)"
-            landmarkType = "7">
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FlipCard.ViewController.__deallocating_deinit"
+                  moduleName = "FlipCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apadula2/Documents/FlipCard/FlipCard/ViewController.swift"
+                  timestampString = "495911770.72284"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FlipCard.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FlipCard.ViewController"
+                  moduleName = "FlipCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apadula2/Documents/FlipCard/FlipCard/ViewController.swift"
+                  timestampString = "495911770.724183"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FlipCard.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FlipCard.ViewController"
+                  moduleName = "FlipCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apadula2/Documents/FlipCard/FlipCard/ViewController.swift"
+                  timestampString = "495911770.725314"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FlipCard.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FlipCard.ViewController&gt;"
+                  moduleName = "FlipCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apadula2/Documents/FlipCard/FlipCard/ViewController.swift"
+                  timestampString = "495911770.727091"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FlipCard.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FlipCard.ViewController&gt;"
+                  moduleName = "FlipCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apadula2/Documents/FlipCard/FlipCard/ViewController.swift"
+                  timestampString = "495911770.72971"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

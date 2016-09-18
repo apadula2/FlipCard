@@ -12,23 +12,32 @@ class ViewController: UIViewController {
 
    
     @IBOutlet weak var cardImageView: UIImageView!
+    @IBOutlet weak var flipsLabel: UILabel!
+    @IBOutlet weak var scoreLable: UILabel!
+    @IBOutlet weak var messageAreaLabel: UILabel!
+    
+    var flips=0
+    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       // Do any additional setup after loading the view, typically from a nib.
     }
-    @IBAction func flipTapRecognizer(_ sender: UITapGestureRecognizer) {
-            let tappoint = sender.location(in: <#T##UIView?#>)
-            
+    
+    
+    @IBAction func fliptapRecognzier(_ sender: UITapGestureRecognizer) {
+        let card = sender.view! as! UIImageView
+        if  card.image == UIImage(named:"back"){
+            card.image=UIImage(named:"front")
+        }
+        else{
+            card.image = UIImage(named:"back")
+        }
+        flips+=1
+        print(flips)
+        flipsLabel.text = "Flips: \(flips)"
         
-        
-            if  cardImageView.image == UIImage(named:"back"){
-                cardImageView.image=UIImage(named:"front")        }
-            else{
-            
-                cardImageView.image = UIImage(named:"back")
-                
-            }
     }
 
         
